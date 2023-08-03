@@ -6,4 +6,6 @@ pro bas01
 winsize
 z=dist(5)
 surface,z
+
+write_png,'Surface plot.png', tvrd(/true)
 end
